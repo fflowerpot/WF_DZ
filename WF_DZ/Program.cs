@@ -1,6 +1,7 @@
 using WF_DZ._17._06._2023;
 using WF_DZ._22._06._2023;
 using WF_DZ._24._09._2023;
+using WF_DZ._29._06._2023;
 namespace WF_DZ
 {
     internal static class Program
@@ -16,7 +17,8 @@ namespace WF_DZ
             ApplicationConfiguration.Initialize();
             //Application.Run(new Anketa());
             //Application.Run(new OrderManagerForm());
-            Application.Run(new Perent());
+            //Application.Run(new Perent());
+            Application.Run(new Notepad());
         }
     }
 }
